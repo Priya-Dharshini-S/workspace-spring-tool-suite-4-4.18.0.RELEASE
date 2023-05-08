@@ -1,3 +1,4 @@
+
 package com.book.demo.model;
 
 import jakarta.persistence.Entity;
@@ -10,6 +11,11 @@ public class BookDetails {
 private String name;
 private String author;
 private int year;
+@Override
+public String toString() {
+	return "BookDetails [bookno=" + bookno + ", name=" + name + ", author=" + author + ", year=" + year + ", quantity="
+			+ quantity + "]";
+}
 private int quantity;
 public int getBookno() {
 	return bookno;

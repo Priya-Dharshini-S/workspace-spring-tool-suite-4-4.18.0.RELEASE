@@ -35,7 +35,7 @@ public String getEmail() {
 public void setEmail(String email) {
 	this.email = email;
 }
-public void setRegister(int register) {
+public void setRegister(int register) { 
 	this.register = register;
 }
 
